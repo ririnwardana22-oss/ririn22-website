@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profil Ririn Wardana</title>
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(120deg, #ffe6f0, #f9d9ff);
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      text-align: center;
+      padding: 40px 20px;
+      background-color: #ffb6c1;
+      color: white;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+
+    header p {
+      font-size: 1.2em;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 40px auto;
+      background: white;
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    .profile-img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      display: block;
+      margin: 0 auto 20px;
+      object-fit: cover;
+      border: 3px solid #ffb6c1;
+    }
+
+    h2 {
+      color: #ff5c8d;
+      border-bottom: 2px solid #ffb6c1;
+      padding-bottom: 5px;
+    }
+
+    .biodata-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 15px;
+    }
+
+    .biodata-table td {
+      padding: 10px;
+      vertical-align: top;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #ffb6c1;
+      color: white;
+      margin-top: 40px;
+    }
+
+    a {
+      color: #ff5c8d;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Ririn Wardana</h1>
+    <p>Website Pribadi & Profil</p>
+  </header>
+
+  <div class="container">
+    <img src="https://via.placeholder.com/150" alt="Foto Ririn" class="profile-img">
+
+    <h2>💖 Tentang Saya</h2>
+    <p>Halo! Nama saya <strong>Ririn Wardana</strong>. Saya adalah seorang pelajar yang suka menulis, mendesain, dan belajar hal-hal baru tentang teknologi. Website ini saya buat untuk memperkenalkan diri dan menampilkan sedikit tentang biodata saya.</p>
+
+    <h2>📋 Biodata Diri</h2>
+    <table class="biodata-table">
+      <tr>
+        <td><strong>Nama Lengkap</strong></td>
+        <td>Ririn Wardana</td>
+      </tr>
+      <tr>
+        <td><strong>Tempat, Tanggal Lahir</strong></td>
+        <td>Bandung, 5 Mei 2008</td>
+      </tr>
+      <tr>
+        <td><strong>Alamat</strong></td>
+        <td>Jl. Mawar Indah No. 12, Bandung</td>
+      </tr>
+      <tr>
+        <td><strong>Hobi</strong></td>
+        <td>Menggambar, Menulis, dan Belajar Desain Web</td>
+      </tr>
+      <tr>
+        <td><strong>Cita-cita</strong></td>
+        <td>Desainer Grafis & Web Developer</td>
+      </tr>
+    </table>
+
+    <h2>📱 Kontak</h2>
+    <p>Email: <a href="mailto:ririnwardana@example.com">ririnwardana@example.com</a></p>
+    <p>Instagram: <a href="https://instagram.com/" target="_blank">@ririnwardana</a></p>
+  </div>
+
+  <footer>
+    <p>© 2025 Ririn Wardana | Dibuat dengan 💗 di GitHub Pages</p>
+  </footer>
+
+</body>
+</html>
